@@ -11,7 +11,9 @@ export default function Search({search, setSearch}: Props){
     return (
         <div className={styles.search}>
             <input value={search}
-            onChange={(event) => setSearch(event.target.value)}/>
+            onChange={(event) => setSearch(event.target.value)}
+            placeholder="Search"
+            />
             <CgSearch size={20} color="#4C4D5E"/>
         </div>
     )
