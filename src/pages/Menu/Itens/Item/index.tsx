@@ -9,7 +9,7 @@ export default function Item(props:Props) {
   return (
     <div className={styles.item}>
       <div className={styles.item__image}>
-        <img src={photo} alt="{title}" />
+        <img src={photo} alt={title} />
       </div>
       <div className={styles.item__description}>
         <div className={styles.item__title}>
@@ -23,9 +23,9 @@ export default function Item(props:Props) {
           })}>{category.label}</div>
           <div className={styles.item__part}>{size}g</div>
           <div className={styles.item__amtpeople}>
-            Serve {serving} pessoa{serving ===1 ? "" : "s"}
+            Serves {serving} people{serving ===1 ? "" : "s"}
             </div>
-          <div className={styles.__value}>R$ {price.toFixed(2)}</div>
+          <div className={styles.item__value}>R$ {price.toFixed(2)}</div>
         </div>
       </div>
     </div>
