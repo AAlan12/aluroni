@@ -1,11 +1,11 @@
-@import "src/styles/variables";
+@import "styles/variaveis";
 
-.filters {
+.filtros {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
   margin: 20px 0;
-  &__filter {
+  &__filtro {
     align-items: center;
     background-color: $grey;
     border: none;
@@ -16,7 +16,7 @@
     height: 40px;
     justify-content: center;
     width: 150px;
-    &--active {
+    &--ativo {
       background-color: $blue;
       color: white;
     }

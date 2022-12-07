@@ -1,6 +1,6 @@
-@import "src/styles/variables";
+@import "styles/variaveis";
 
-.order {
+.ordenador {
   align-items: center;
   background-color: $grey;
   border: none;
@@ -14,7 +14,7 @@
   min-width: 240px;
   padding: 0 40px;
   position: relative;
-  &--active {
+  &--ativo {
     background-color: $blue;
     color: white;
   }
@@ -25,7 +25,7 @@
     flex-direction: column;
     top: 100%;
     width: 100%;
-    &--active {
+    &--ativo {
       display: flex;
     }
   }
@@ -40,7 +40,7 @@
     justify-content: center;
     width: inherit;
     &:hover,
-    &--active {
+    &--ativo {
       background-color: $blue;
       cursor: pointer;
       color: white;
