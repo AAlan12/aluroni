@@ -37,7 +37,7 @@ export default function Inicio() {
       <div className={styles.nossaCasa}>
         <img src={nossaCasa} alt="Casa do aluroni" />
         <div className={styles.nossaCasa__endereco}>
-          Rua François Teles de Menezes, 100 <br/> <br/> Fortaleza - CE
+          Rua Fraça Thales, 12 <br/> <br/> Fortaleza - CE
         </div>
       </div>
     </section>
